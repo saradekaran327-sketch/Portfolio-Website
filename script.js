@@ -17,9 +17,9 @@
 new Typed(".typing",{
 
 strings:[
-"C Programmer",
-"HTML Learner",
-"Future Full Stack Developer",
+"Programmer 💻",
+"Coder 👨‍💻",
+"Full Stack Developer",
 "Web Developer"
 ],
 
