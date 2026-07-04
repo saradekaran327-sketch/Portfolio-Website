@@ -19,8 +19,8 @@ new Typed(".typing",{
 strings:[
 "Programmer 💻",
 "Coder 👨‍💻",
-"Full Stack Developer",
-"Web Developer"
+"Full Stack Developer 🌐",
+"Web Developer 🕸️",
 ],
 
 typeSpeed:80,
