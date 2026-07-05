@@ -207,13 +207,15 @@ margin:10px 0;
 }
 
 .home-content h2{
-
-font-size:35px;
-
-color:#00e5ff;
-
-height:45px;
-
+    font-size:35px;
+    color:#00e5ff;
+    min-height:50px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.typing{
+    display:inline-block;
+    white-space:nowrap;
 }
 
 .home-content p{
