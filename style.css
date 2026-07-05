@@ -209,13 +209,13 @@ margin:10px 0;
 .home-content h2{
     font-size:35px;
     color:#00e5ff;
-    min-height:50px;
-    white-space: nowrap;
-    overflow: hidden;
+    height:45px;
+    width:420px;
 }
+
 .typing{
     display:inline-block;
-    white-space:nowrap;
+    min-width:420px;
 }
 
 .home-content p{
