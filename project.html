@@ -1,160 +1,159 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects | Portfolio</title>
 
+    <title>Karan A Sarade | Portfolio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Loader -->
-    <div class="loader">
-        <div class="spinner"></div>
+    <div id="loader">
+        <h1>KARAN</h1>
     </div>
 
     <!-- Header -->
-    <header class="header">
-        <a href="index.html" class="logo">Portfolio</a>
+    <header>
+        <a href="#" class="logo">Karan.</a>
 
-        <i class="bx bx-menu" id="menu-icon"></i>
-
-        <nav class="navbar">
+        <nav>
             <a href="index.html">Home</a>
-            <a href="index.html#about">About</a>
-            <a href="index.html#skills">Skills</a>
-            <a href="project.html" class="active">Projects</a>
-            <a href="index.html#contact">Contact</a>
+            <a href="about.html">About</a>
+            <a href="skill.html">Skills</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
         </nav>
+
+        <div class="menu">
+            <i class='bx bx-menu'></i>
+        </div>
     </header>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
+     <section class="projects" id="projects">
 
-        <h2 class="heading">My <span>Projects</span></h2>
+    <div class="section-title">
+        <h2>My Projects</h2>
+        <span>Things I've Built</span>
+    </div>
 
-        <div class="projects-container">
+    <div class="project-container">
 
-            <!-- Project 1: Online Shopee -->
-            <div class="project-box" data-aos="fade-up">
+        <!-- Project 1 -->
+        <div class="project-card">
 
-                <i class="bx bx-shopping-bag"></i>
-
-                <h3>Online Shopee Website</h3>
-
-                <p>
-                    An online shopping website where users can explore
-                    products and enjoy a simple shopping experience.
-                </p>
-
-                <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="https://github.com/saradekaran327-sketch/Online-Shopee"
-                       target="_blank" class="btn">GitHub</a>
-
-                    <a href="https://saradekaran327-sketch.github.io/Online-Shopee/"
-                       target="_blank" class="btn">Live Demo</a>
-                </div>
-
+            <div class="project-icon">
+                🛒
             </div>
 
-            <!-- Project 2: Quiz Game -->
-            <div class="project-box" data-aos="fade-up">
+            <h3>Online Shopee website</h3>
 
-                <i class="bx bx-brain"></i>
+            <p>
+                A responsive online shopping website built with HTML, CSS, and JavaScript,
+                 featuring shopping cart management, and dynamic bill calculation with a user-friendly interface for an enhanced shopping experience.
+                
+            </p>
 
-                <h3>Quiz Game</h3>
-
-                <p>
-                    An interactive quiz game where users answer multiple-choice
-                    questions, check their scores, and restart the quiz.
-                </p>
-
-                <div class="project-tech">
-                    <span>C</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="https://github.com/saradekaran327-sketch/Quiz-Game"
-                       target="_blank" class="btn">GitHub</a>
-
-                    <a href="https://saradekaran327-sketch.github.io/Quiz-Game/"
-                       target="_blank" class="btn">Live Demo</a>
-                </div>
-
+            <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>C</span>
             </div>
 
-            <!-- Project 3: Online Movie Ticket Booking -->
-            <div class="project-box" data-aos="fade-up">
-
-                <i class="bx bx-movie-play"></i>
-
-                <h3>Online Movie Ticket Booking System</h3>
-
-                <p>
-                    A movie ticket booking project developed using C++ and
-                    Object-Oriented Programming. Users can select movies,
-                    theatres, show dates, timings, and seats with different
-                    categories and prices.
-                </p>
-
-                <div class="project-tech">
-                    <span>C++</span>
-                    <span>OOP</span>
-                </div>
-
-                <div class="project-buttons">
-                    <a href="https://github.com/saradekaran327-sketch/Online-Movie-Ticket-Booking-System"
-                       target="_blank" class="btn">GitHub</a>
-
-                    <a href="https://saradekaran327-sketch.github.io/Online-Movie-Ticket-Booking-System/"
-                       target="_blank" class="btn">Live Demo</a>
-                </div>
-
+            <div class="project-buttons">
+                <a href="https://github.com/saradekaran327-sketch/Online-Shopee" class="project-btn">GitHub</a>
+                <a href="https://saradekaran327-sketch.github.io/Online-Shopee/" class="project-btn demo">Live Demo</a>
             </div>
 
         </div>
 
-    </section>
+        <!-- Project 2 -->
+
+        <div class="project-card">
+
+            <div class="project-icon">
+                🧠
+            </div>
+
+            <h3>Quiz Game</h3>
+
+            <p>
+                A responsive quiz game built with HTML, CSS, and JavaScript,
+                 featuring multiple-choice questions, score tracking, and a timer.to enhance the user's knowledge and provide 
+                an engaging learning experience.
+            </p>
+
+            <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>C</span>
+            </div>
+
+            <div class="project-buttons">
+                <a href="https://github.com/saradekaran327-sketch/Quiz-Game.git" class="project-btn">GitHub</a>
+                <a href="https://saradekaran327-sketch.github.io/Quiz-Game/" class="project-btn demo">Live Demo</a>
+            </div>
+
+        </div>
+
+</section>
 
     <!-- Footer -->
-    <footer class="footer">
+   <footer>
 
-        <div class="footer-text">
-            <p>Copyright &copy; 2026 | All Rights Reserved.</p>
+    <div class="footer-content">
+
+        <h2>Karan A Sarade</h2>
+
+        <p>
+            Aspiring Software Developer | Passionate Learner
+        </p>
+
+        <div class="footer-social">
+
+            <a href="https://github.com/saradekaran327-sketch/Portfolio-Website" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/karan-sarade-70a233317?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+
+            <a href="https://www.instagram.com/karan_327_18?igsh=MWdqejYxdms3MnpvMw==" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+
         </div>
 
-        <div class="footer-iconTop">
-            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
-        </div>
+        <p class="copyright">
+            © 2026 Karan A Sarade. All Rights Reserved.
+        </p>
 
-    </footer>
+    </div>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</footer>
+        <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true
-        });
-    </script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+    <!-- Custom JS -->
     <script src="script.js"></script>
 
 </body>
+
 </html>
