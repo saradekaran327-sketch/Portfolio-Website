@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,132 +6,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Karan A Sarade | Portfolio</title>
+    <title>My Projects | Portfolio</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Boxicons -->
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-
-    <!-- AOS Animation -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Loader -->
-    <div id="loader">
-        <h1>KARAN</h1>
+    <div class="loader">
+        <div class="spinner"></div>
     </div>
 
     <!-- Header -->
-    <header>
-        <a href="#" class="logo">Karan.</a>
+    <header class="header">
+        <a href="index.html" class="logo">Portfolio</a>
 
-        <nav>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="skill.html">Skills</a>
-            <a href="project.html">Projects</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="project.html" class="active">Projects</a>
+            <a href="index.html#contact">Contact</a>
         </nav>
-
-        <div class="menu">
-            <i class='bx bx-menu'></i>
-        </div>
     </header>
 
-    <!-- Hero -->
-    <section class="home" id="home">
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
 
-        <div class="home-content">
+        <h2 class="heading">My <span>Projects</span></h2>
 
-            <h3>Hello, I'm</h3>
+        <div class="projects-container">
 
-            <h1>Karan A Sarade</h1>
+            <!-- Online Shopee Project -->
+            <div class="project-box" data-aos="fade-up">
 
-            <h2><span class="typing"></span></h2>
+                <i class='bx bx-shopping-bag'></i>
 
-            <p>
-                Passionate beginner developer learning C Programming,
-                HTML and Microsoft Excel. My goal is to become
-                a Full Stack Developer.
-            </p>
+                <h3>Online Shopee Website</h3>
 
-            <div class="buttons">
+                <p>
+                    An online shopping website where users can explore
+                    products and enjoy a simple shopping experience.
+                </p>
 
-                <a href="Karan_Resume.pdf" class="btn" download>
-                    Download Resume
-                </a>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
 
-                <a href="tel:7385289618" class="btn2">
-                    Contact Me
-                </a>
+                <div class="project-buttons">
+                    <a href="https://github.com/saradekaran327-sketch/Online-Shopee"
+                       target="_blank" class="btn">
+                        GitHub
+                    </a>
+
+                    <a href="https://saradekaran327-sketch.github.io/Online-Shopee/"
+                       target="_blank" class="btn">
+                        Live Demo
+                    </a>
+                </div>
 
             </div>
 
-            <div class="social">
+            <!-- Quiz Game Project -->
+            <div class="project-box" data-aos="fade-up">
 
-                <a href="https://github.com/saradekaran327-sketch/Portfolio-Website" target="_blank"><i class='bx bxl-github'></i></a>
+                <i class='bx bx-brain'></i>
 
-                <a href="https://www.linkedin.com/in/karan-sarade-70a233317?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <h3>Quiz Game</h3>
 
-                <a href="https://www.instagram.com/karan_327_18?igsh=MWdqejYxdms3MnpvMw==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <p>
+                    An interactive quiz game where users answer multiple-choice
+                    questions, check their scores, and restart the quiz.
+                </p>
+
+                <div class="project-tech">
+                    <span>C</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/saradekaran327-sketch/Quiz-Game"
+                       target="_blank" class="btn">
+                        GitHub
+                    </a>
+
+                    <a href="https://saradekaran327-sketch.github.io/Quiz-Game/"
+                       target="_blank" class="btn">
+                        Live Demo
+                    </a>
+                </div>
 
             </div>
 
-        </div>
+            <!-- Online Movie Ticket Booking Project -->
+            <div class="project-box" data-aos="fade-up">
 
-        <div class="home-image">
-            <img src="Profile-pic.png" alt="Karan A Sarade">
+                <i class='bx bx-movie-play'></i>
+
+                <h3>Online Movie Ticket Booking System</h3>
+
+                <p>
+                    A movie ticket booking project developed using C++ and
+                    Object-Oriented Programming. Users can select movies,
+                    theatres, show dates, timings, and seats with different
+                    categories and prices.
+                </p>
+
+                <div class="project-tech">
+                    <span>C++</span>
+                    <span>OOP</span>
+                </div>
+
+                <div class="project-buttons">
+                    <a href="https://github.com/saradekaran327-sketch/Online-Movie-Ticket-Booking-System"
+                       target="_blank" class="btn">
+                        GitHub
+                    </a>
+
+                    <a href="https://saradekaran327-sketch.github.io/Online-Movie-Ticket-Booking-System/"
+                       target="_blank" class="btn">
+                        Live Demo
+                    </a>
+                </div>
+
+            </div>
+
         </div>
 
     </section>
+
     <!-- Footer -->
- <footer>
-
-    <div class="footer-content">
-
-        <h2>Karan A Sarade</h2>
-
-        <p>
-            Aspiring Software Developer | Passionate Learner
-        </p>
-
-        <div class="footer-social">
-
-            <a href="https://github.com/saradekaran327-sketch/Portfolio-Website" target="_blank">
-                <i class='bx bxl-github'></i>
-            </a>
-
-            <a href="https://www.linkedin.com/in/karan-sarade-70a233317?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
-                <i class='bx bxl-linkedin'></i>
-            </a>
-
-            <a href="https://www.instagram.com/karan_327_18?igsh=MWdqejYxdms3MnpvMw==" target="_blank">
-                <i class='bx bxl-instagram'></i>
-            </a>
-
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 | All Rights Reserved.</p>
         </div>
 
-        <p class="copyright">
-            © 2026 Karan A Sarade. All Rights Reserved.
-        </p>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
-    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
 
-</footer>
-
-    <!-- Typed.js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <!-- AOS Animation -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-
-    <!-- Custom JS -->
     <script src="script.js"></script>
 
 </body>
-
 </html>
